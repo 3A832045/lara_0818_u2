@@ -17,6 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('home', function (){
+Route::get('home',[\App\Http\Controllers\HomeController::class, 'index'])->name('home.index');
+
+/*Route::get('home', function (){
     return view('home.index');
-});
+});*/
