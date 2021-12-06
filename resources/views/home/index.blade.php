@@ -1,19 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Home</title>
-</head>
-    <body>
-        @extends('layouts.master')
+@extends('layouts.master')
 
-        @section('title','Home')
+@section('title','Home')
 
-        @section('content')
+@section('content')
 
-        <h1>Home</h1>
-        <p>This is my body content.</p>
+    <h1>Home</h1>
+    <p>This is my body content.</p>
 
-        @endsection
-    </body>
-</html>
+@endsection
+
